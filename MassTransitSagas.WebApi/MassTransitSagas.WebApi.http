@@ -1,0 +1,11 @@
+@MassTransitSagas.WebApi_HostAddress = http://localhost:5039
+
+POST {{MassTransitSagas.WebApi_HostAddress}}/api/test/publish-test-message/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "text": "test",
+  "tag": "tag1"
+}
+###
