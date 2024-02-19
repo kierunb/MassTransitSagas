@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransitSagas.Worker", "MassTransitSagas.Worker\MassTransitSagas.Worker.csproj", "{04C7B5A4-BCE3-40B3-AFEF-F054433E0DA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransitSagas.WebApi", "MassTransitSagas.WebApi\MassTransitSagas.WebApi.csproj", "{648735DA-6F5D-4C81-A651-C1D80F92BF23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransitSagas.UnitTests", "MassTransitSagas.UnitTests\MassTransitSagas.UnitTests.csproj", "{AD05CC6E-2444-4461-8E28-51B0CDD35B17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{40F8A641-7BA3-416F-9E4A-AB5CDB89E76C}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitSagas.Contracts", "MassTransitSagas.Contracts\MassTransitSagas.Contracts.csproj", "{CBE002AA-9FFC-418A-ABD7-FFAB972C88B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04C7B5A4-BCE3-40B3-AFEF-F054433E0DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C7B5A4-BCE3-40B3-AFEF-F054433E0DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C7B5A4-BCE3-40B3-AFEF-F054433E0DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C7B5A4-BCE3-40B3-AFEF-F054433E0DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{648735DA-6F5D-4C81-A651-C1D80F92BF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648735DA-6F5D-4C81-A651-C1D80F92BF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648735DA-6F5D-4C81-A651-C1D80F92BF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648735DA-6F5D-4C81-A651-C1D80F92BF23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD05CC6E-2444-4461-8E28-51B0CDD35B17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD05CC6E-2444-4461-8E28-51B0CDD35B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD05CC6E-2444-4461-8E28-51B0CDD35B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD05CC6E-2444-4461-8E28-51B0CDD35B17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBE002AA-9FFC-418A-ABD7-FFAB972C88B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE002AA-9FFC-418A-ABD7-FFAB972C88B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE002AA-9FFC-418A-ABD7-FFAB972C88B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE002AA-9FFC-418A-ABD7-FFAB972C88B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15B23714-9626-4E93-B1EE-025F68D30CB0}
+	EndGlobalSection
+EndGlobal
